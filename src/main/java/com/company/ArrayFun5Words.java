@@ -17,7 +17,7 @@ public class ArrayFun5Words {
 
         //For loop to ask for user's input 5 times
         for (int i = 0; i < stringarray_user.length; i++) {
-            System.out.println("Please enter a word: ");
+            System.out.println("Please enter a word (" + (i+1)+ "/5): ");
 
             //get input
             current_word = inputread.nextLine();

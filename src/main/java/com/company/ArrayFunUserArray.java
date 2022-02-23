@@ -15,7 +15,7 @@ public class ArrayFunUserArray {
 
         for (int i = 0; i < inputarray.length; i++) {
             //Greet user and print instructions
-            System.out.println("Please enter an integer:");
+            System.out.println("Please enter an integer (" + (i+1)+ "/5): ");
 
             //Get input as integer, then put input in the array at index i
             userinput = inputread.nextLine();
